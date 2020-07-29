@@ -533,6 +533,18 @@ class UNDZFile(dz.DZFile, UNDZUtils):
                 # Save the full header for rebuilding the file later
                 self.header = dz_file['buffer']
 
+                #print(dz_file['version'])
+                #print(dz_file['buildType'])
+                #print(dz_file['oldDateCode'])
+                #print(dz_file['chunkCount'])
+                #print(dz_file['md5'])
+                #print(dz_file['unknown0'])
+                #print(dz_file['reserved1'])
+                #print(dz_file['reserved4'])
+                #print(dz_file['unknown1'])
+                #print(dz_file['unknown2'])
+                #print(self.header)
+
                 # Appears to be version numbers for the format
                 if dz_file['formatMajor'] > 2:
                         print("[!] Error: DZ format version too high! (please report)", file=sys.stderr)
