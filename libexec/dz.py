@@ -159,7 +159,8 @@ class DZFile(DZStruct):
 		('formatMinor',	('I',    False)),	# always 1 in LE
 		('reserved0',	('I',    True)),	# format patchlevel?
 		('device',	('32s',  True)),
-		('version',	('144s', True)),	# "factoryversion"
+		('version',	('121s', True)),	# "factoryversion"
+		('unknown9',	('23s',  False)),	# md5?
 		('chunkCount',	('I',    False)),
 		('md5',		('16s',  False)),	# MD5 of chunk headers
 		('unknown0',	('I',    False)),	# 256?
