@@ -1,0 +1,17 @@
+[project]
+name = "kdztools"
+version = "1.2"
+authors = [
+{ name="IOMonster", email="tylerfixer@thecubed.com"},
+{ name="Elliott Mitchell" , email="ehem+kdztools@m5p.com"},
+{ name="steadfasterX" , email="steadfasterX@gmail.com"},]
+description="Tools for working with KDZ files"
+readme="README.txt"
+classifiers = [
+    "Programming Language :: Python :: 3",
+	"License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/steadfasterX/kdztools"
